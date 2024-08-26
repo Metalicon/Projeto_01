@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto_01</title>
+    <title>Game Shop - A sua loja de games</title>
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -21,42 +26,79 @@
                 </ul>
             </nav>
         </div>
+    </header>
         <section id="about">
             <div class="container">
                 <img class="store-front" src="./imagens/loja.jpg" alt="Fachada da loja Games Shop" />
-            <div>
-                <h2>Sobre a loja</h2>
-                <p>
+                <div>
+                    <h2>Sobre a loja</h2>
+                    <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde iusto mollitia odio, voluptates molestias quos voluptatibus, accusamus magnam placeat asperiores sunt nostrum earum! Ratione dolorum aspernatur quia adipisci repellat cumque.
-                </p>
-                <p>
+                    </p>
+                    <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quam minima iure perspiciatis deserunt eos atque harum, temporibus similique, incidunt facilis ducimus quae enim ratione exercitationem accusamus cupiditate amet pariatur?
-                </p>
-                <ul class="brands-list">
-                    <li img src="./imagens/nintendo.png"></li>
-                    <li src img="./imagnes/xbox.png"></li>
-                    <li src img="./imagens/playstation"></li>
-                </ul>
-            </div>
+                    </p>
+                    <ul class="brands-list">
+                        <li><img src="./Imagens/nintendo.png" alt="Nintendo" /></li>
+                        <li><img src="./Imagens/xbox.png" alt="Xbox" /></li>
+                        <li><img src="./Imagens/playstation.png" alt="Playstation" /></li>
+                    </ul>
+                </div>
         </section>
         <section id="contact">
             <div class="container">
                 <h2>Contato</h2>
                 <div class="contact-methods">
                     <!--SUB-SEÇÕES-->
+        <section>
                     <div>
                         <h3>Fale Conosco</h3>
                         <form>
                             <input type="text" placeholder="Seu nome" required />
                             <input type="email" placeholder="Seu e-mail" required />
-                            <input type="tel" placeholder="Seu telefone" required />
+                            <input type="tel" placeholder="Seu telefone" (opcional) />
                             <textarea placeholder="Sua mensagem" required></textarea>
                             <button type="submit">Enviar</button>
                         </form>
+        </section>
+        <section>               
+                        <div>
+                            <h3>Nos Acompanhe</h3>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#" title="Siga-nos no Instagram">
+                                        <img src="./Imagens/instagram.png" alt="Logo do instagram" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Siga-nos no Facebook">
+                                        <img src="./Imagens/facebook.png" alt="Logo do Facebook" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Visite nosso canal no Youtube">
+                                        <img src="./Imagens/youtube.png" alt="Logo do Youtube" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+            </section>
+                        <div>
+                            <h3>Venha até nós</h3>
+                            <p>
+                                Rua JavaScript n° 124, Vila HTML - São Paulo - SP
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-    </header>
+        <footer>
+            <div class="container">
+                <p>
+                    &copy; Games Shop - Todos os direitos reservados - 2024
+                </p>
+            </div>
+        </footer>
 </body>
 </html>
